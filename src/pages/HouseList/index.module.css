@@ -1,0 +1,35 @@
+.header {
+  height: 45px;
+  padding: 0 10px;
+  background-color: #f6f5f6;
+}
+
+.searchHeader {
+  position: relative;
+  top: 0;
+  padding: 0;
+}
+
+.header :global(.icon-back) {
+  font-size: 16px;
+  color: #999;
+}
+
+.searchHeader :global(.icon-map) {
+  color: #00ae66;
+}
+
+.searchHeader :global(.search) {
+  height: 30px;
+}
+
+.houseItems {
+  padding: 0 15px;
+}
+
+.loading {
+  line-height: 120px;
+  text-align: center;
+  height: 110px;
+  background-color: #f6f5f6;
+}
